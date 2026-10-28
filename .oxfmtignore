@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+*.json
+*.md
+*.yml
+*.yaml
+*.txt
+*.txt
+__fixtures__/

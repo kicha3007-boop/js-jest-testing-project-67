@@ -1,0 +1,42 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Page loader: downloads a web page with its local resources",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "page-loader": "bin/page-loader.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "oxlint && oxfmt --ignore-path=.oxfmtignore --check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicha3007-boop/js-jest-testing-project-67.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.0",
+    "axios-debug-log": "^1.0.0",
+    "cheerio": "^1.1.0",
+    "commander": "^14.0.0",
+    "debug": "^4.4.0",
+    "listr": "^0.14.3"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.0",
+    "nock": "^14.0.0",
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "vitest": "^5.0.0"
+  }
+}
